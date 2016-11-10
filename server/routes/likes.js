@@ -2,10 +2,9 @@ var express = require('express');
 var router = express.Router();
 
 var Group = {
-  jake_likes: 0,
-  denny_likes: 0,
-  liz_likes: 0,
-  dave_likes: 0
+  phil_likes: 0,
+  casey_likes: 0,
+  hien_likes: 0,
 }
 var dave = Group.dave_likes;
 
