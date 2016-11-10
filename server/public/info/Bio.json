@@ -1,0 +1,9 @@
+{
+ "array" : [
+  {
+  "name" : "Jake",
+  "bio" : "I like Dragons and stuff. I also enjoy basketball.",
+  "image" : ".../info/images/jake.jpg"
+  }
+ ]
+}

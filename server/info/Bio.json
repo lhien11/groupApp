@@ -1,0 +1,19 @@
+{
+  "array": [
+    {
+      "name": "Casey",
+      "bio": "I enjoy long walks on the beach with Phil (and Hien on occasion).",
+      "image": "./assests/images/casey.img"
+    },
+    {
+      "name": "Phil",
+      "bio": "I enjoy long walks on the beach with Casey (and Hien on occasion).",
+      "image": "./assets/images/phim.img"
+    },
+    {
+      "name": "Hien",
+      "bio": "I enjoy long walks on the beach by myself (and on occasion with Phil or Casey).",
+      "image": "./assets/images/hien.img"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "groupShowCaseApp",
+  "version": "1.0.0",
+  "description": "Group Challenge",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Casey, Hien, Phil",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
