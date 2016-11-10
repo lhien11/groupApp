@@ -2,4 +2,4 @@
 
 GROUP MEMBERS
 
-Denny, Jake, Liz, Dave
+Casey, Hien, Phil
