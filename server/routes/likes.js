@@ -6,50 +6,28 @@ var Group = {
   casey_likes: 0,
   hien_likes: 0,
 }
-var dave = Group.dave_likes;
+var phil = Group.phil_likes;
 
 router.get('/', function(req, res){
-  Group.jake_likes ++;
+  Group.phil_likes ++;
   res.send(Group);
 });
-router.get('/dave', function(req, res){
+router.get('/phil', function(req, res){
   console.log(dave)
   dave++;
   console.log(dave);
   res.send(dave);
 });
-router.get('/liz', function(req, res){
-  res.send(Group.liz_likes);
+router.get('/casey', function(req, res){
+  res.send(Group.casey_likes);
 });
-router.get('/denny', function(req, res){
-  res.send(Group.denny_likes);
-});
-router.get('/jake', function(req, res){
-  res.send(Group.jake_likes);
-});
+
 
 
 // router.post('/', function(req, res){
 //   console.log("Hey")
 //   res.sendStatus(201);
 // });
-router.post('/dave', function(req, res){
-  Group.dave_likes++;
-  res.json(Group.dave_likes);
-  // res.sendStatus(201);
-});
-router.post('/liz', function(req, res){
-  Group.liz_likes++;
-  res.json(Group.liz_likes);
-});
-router.post('/denny', function(req, res){
-  Group.denny_likes++;
-  res.json(Group.denny_likes);
-});
-router.post('/jake', function(req, res){
-  Group.jake_likes++;
-  res.json(Group.jake_likes);
-});
 
 
 module.exports = router;
